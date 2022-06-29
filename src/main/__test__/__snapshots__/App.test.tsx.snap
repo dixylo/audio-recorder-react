@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Audio Recorder App should render correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="sub-container"
+  >
+    <h2
+      className="header"
+    >
+      Audio Recorder
+    </h2>
+    <div
+      className="button-container"
+    >
+      <button
+        className="button"
+        data-testid="btn-Record"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Record
+      </button>
+      <button
+        className="button"
+        data-testid="btn-Stop"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Stop
+      </button>
+    </div>
+    <p
+      className="instruction"
+      data-testid="instruction"
+    >
+      Please click "Record" to start recording.
+    </p>
+    <audio
+      controls={true}
+      data-testid="audioplayer"
+      src=""
+      style={
+        Object {
+          "visibility": "hidden",
+        }
+      }
+    >
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
+`;

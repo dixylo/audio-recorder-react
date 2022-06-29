@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00001e;
+  color: white;
+}
+
+.sub-container {
+  width: 500px;
+  height: 300px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
